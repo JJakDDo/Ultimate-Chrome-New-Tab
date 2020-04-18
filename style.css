@@ -1,0 +1,47 @@
+body{
+    background-color: #0e0e0e;
+    font-family: 'Nanum Pen Script', cursive;
+    color: white;
+    text-shadow: 4px 4px 4px gray;
+}
+
+.bg{
+    position: absolute;
+    width:100%;
+    height : 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.clock{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+
+.clock .time{
+    font-size: 10em;
+}
+
+.clock .sec{
+    position: relative;
+    font-size: 3em;
+    top: 80px;
+    margin-left: 10px;
+}
+
+.date{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    margin-left: 100px;
+    padding-top: 130px;
+}
