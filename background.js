@@ -1,5 +1,5 @@
 const bg = document.querySelector(".bgDiv");
-let imgSrc = "https://source.unsplash.com/random";
+let imgSrc = "https://source.unsplash.com";
 
 function addScreenSize(){
     const width = screen.width;
