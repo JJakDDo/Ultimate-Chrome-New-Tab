@@ -92,7 +92,7 @@ body{
 }
 
 ul{
-    width: 700px;
+    width: 35%;
 }
 ul li{
     float: left;
@@ -186,4 +186,46 @@ ul li{
     background: white;
     opacity: 0.7;
     z-index: 1;
+}
+
+.modal_form{
+    position: relative;
+    padding: 20px 20px;
+    width: auto;
+    height: auto;
+    font-size: 24px;
+}
+
+.modal_form input{
+    border: none;
+    background-color: #ecf0f1;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.link_name_form{
+    margin-top: 20px;
+}
+.link_url_form{
+    margin-top: 10px;
+}
+.link_name_form, .link_url_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal_form input:focus{    
+    outline: none;
+}
+
+.modal_form .btnAddLink{
+    border: none;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    float: right;
+    margin-top: 10px;
 }
